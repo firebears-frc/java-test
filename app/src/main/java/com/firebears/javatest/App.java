@@ -19,8 +19,15 @@ public class App {
         System.out.println("The product of " + x + " and " + y + " is: " + result);
     }
 
+    public static void addNumber(){
+        double num1 = 3.5;
+        double num2 = 4.5;
+        double thesum = num1 + num2;
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + thesum);
+    }
+
     public static void main(String[] args) {
         // System.out.println(new App().getGreeting());
-        multiplyNumbers();
+        addNumber();
     }
 }
